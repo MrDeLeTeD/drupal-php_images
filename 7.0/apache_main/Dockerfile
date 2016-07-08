@@ -157,6 +157,6 @@ RUN chmod 600 /var/www/.ssh/
 EXPOSE 80 9000
 
 # Set a custom entrypoint.		
-COPY core/docker-entrypoint.sh /		
-RUN chmod +x /docker-entrypoint.sh		
-ENTRYPOINT ["/docker-entrypoint.sh"]
+#COPY core/docker-entrypoint.sh /		
+#RUN chmod +x /docker-entrypoint.sh		
+#ENTRYPOINT ["/docker-entrypoint.sh"]

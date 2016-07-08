@@ -141,6 +141,6 @@ VOLUME /var/www/html
 EXPOSE 80 9000
 
 # Set a custom entrypoint.		
-COPY core/docker-entrypoint.sh /		
-RUN chmod +x /docker-entrypoint.sh		
-ENTRYPOINT ["/docker-entrypoint.sh"]
+#COPY core/docker-entrypoint.sh /		
+#RUN chmod +x /docker-entrypoint.sh		
+#ENTRYPOINT ["/docker-entrypoint.sh"]
